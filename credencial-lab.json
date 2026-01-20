@@ -1,0 +1,54 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    "https://purl.imsglobal.org/spec/ob/v3p0/context-3.0.3.json"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "OpenBadgeCredential"
+  ],
+  "id": "https://www.credential.net/12ea7451-abe9-4599-a3fe-62c0f711da8f",
+  "name": "Certificado Jornada de dados - JOR002 - ETL",
+  "description": "Certificado Jornada de dados",
+  "image": {
+    "id": "https://pdf.ms.credential.net/v2/certificate/image?env=production&credential=g1c395vl&variant=medium",
+    "type": "Image"
+  },
+  "issuer": {
+    "type": "Profile",
+    "id": "did:web:api.accredible.com:v1:verifiable_credential:organizations:8361",
+    "name": "Laboratoria",
+    "url": "http://laboratoria.la"
+  },
+  "validFrom": "2025-11-04T00:00:00Z",
+  "credentialSubject": {
+    "type": "AchievementSubject",
+    "identifier": [
+      {
+        "type": "IdentityObject",
+        "hashed": true,
+        "identityHash": "sha256$1a4046d645abb9471a1d1305331cfcda3021e2cdffeb562f86f35b2a5937cfa0",
+        "identityType": "emailAddress",
+        "salt": "8f795d9e1e81a4c7f99928dddcb7e82d"
+      }
+    ],
+    "achievement": {
+      "id": "https://www.credential.net/group/764139",
+      "type": "Achievement",
+      "achievementType": "Achievement",
+      "name": "Certificado Jornada de dados - JOR002 - ETL",
+      "description": "Certificado Jornada de dados",
+      "criteria": {
+        "narrative": "https://analisededadoslaboratoria.com.br/"
+      }
+    }
+  },
+  "proof": {
+    "type": "DataIntegrityProof",
+    "cryptosuite": "eddsa-rdfc-2022",
+    "created": "2026-01-20T20:29:39Z",
+    "verificationMethod": "did:web:api.accredible.com:v1:verifiable_credential:organizations:8361#f5f1b384-dc25-11f0-812a-0f3a84851669",
+    "proofPurpose": "assertionMethod",
+    "proofValue": "z56KKBiAW2nnvNAUGYYnSDurh3xjRLdwkN5dH4Rxu5Hv9ouy4LYEqRnz7teSGDSrQ3YcQFuNPyLGNYkukJtWnJNFN"
+  }
+}
